@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit;
+  font-weight: 400, 700;
+  box-sizing: border-box;
+}
+
+.content-container { 
+  background-color: #ffffff;
+  padding: 12px;
+  max-width: 200px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: -40px;
+}
+
+.qr-code {
+  max-width: 100%;
+  border-radius: 5%;
+  height: auto;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 400, 700, bold;
+  font-size: 17px;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
